@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 public class Account {
 
     private String currency = "NOK";
+    private String test;
     private String id;
     private BigDecimal balance = BigDecimal.valueOf(0);
 
