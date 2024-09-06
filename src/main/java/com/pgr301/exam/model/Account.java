@@ -14,6 +14,7 @@ public class Account {
     private String currency = "NOK";
     private String test;
     private String id;
+    private string feil;
     private BigDecimal balance = BigDecimal.valueOf(0);
 
     public BigDecimal getBalance() {
